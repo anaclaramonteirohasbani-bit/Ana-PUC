@@ -1,0 +1,25 @@
+ROBO: FUGA DA ESTACAO — 4 FASES
+
+Arquivos:
+- jogo_4_fases.py: código do jogo.
+- player.png: sprites do robô fornecidos no pacote.
+- tileset.png: cenário sci-fi fornecido no pacote.
+- mapas_4_fases.txt: referência das matrizes das quatro fases.
+
+Para executar:
+1. Instale Python 3.
+2. Instale o Pygame: python -m pip install pygame
+3. Deixe todos os arquivos na mesma pasta.
+4. Execute: python jogo_4_fases.py
+
+Controles:
+- A/D ou setas: andar
+- ESPAÇO, W ou seta para cima: pular
+- R: reiniciar a fase durante o jogo; na tela final, recomeçar da fase 1
+- ESC: sair
+
+Objetivo:
+Coletar todos os cristais de cada fase e alcançar a porta verde.
+Há quatro fases, dois tipos de inimigos e espinhos. Colidir com inimigos
+ou espinhos tira uma vida e 15 pontos. Cada cristal vale 10 pontos;
+completar uma fase vale 50 pontos; vencer a fase 4 vale 100 pontos.
